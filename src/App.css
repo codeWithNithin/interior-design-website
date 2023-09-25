@@ -1,38 +1,140 @@
-.App {
+.hero-img {
+  width: 1200px;
+  margin: 45px auto;
+  position: relative;
+}
+
+.hero-img img {
+  border-radius: 54px;
+}
+
+.hero-text-container {
+  position: absolute;
+  left: 5%;
+  top: 30%;
+}
+
+.m-t-10 {
+  margin-top: 10px;
+}
+
+.m-t-15 {
+  margin-top: 15px;
+}
+
+.right-arrow {
+  width: 15px;
+  height: 13px;
+}
+
+.btn-default {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.stylish-section {
+  width: 1200px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+}
+
+.call-container {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.phone-no {
+  color: #4d5053;
+  font-family: Jost;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 36px */
+  letter-spacing: 0.24px;
+}
+
+.font-size-17 {
+  font-size: 17px;
+}
+
+.text-content {
+  margin-top: 45px;
+}
+
+.img-content {
+  /* transform: rotate(90deg); */
+}
+
+.img-content img {
+  border-radius: 0 326.5px 0px 123px;
+  background: #c4c4c4;
+  height: 653px;
+}
+
+.card {
+  background: #fff;
+  border-radius: 47px;
+  padding: 47px;
+  height: 308px;
+}
+
+.card-title {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.avatar img {
+  /* width: 171px;
+  height: 114px; */
+  border-radius: 50%;
+}
+
+.people-think-about-us {
+  background: #f4f0ec;
+  border-radius: 70px;
+  padding: 40px;
+  height: 679px;
+  /* margin-top: 100px; */
+}
+
+.testimonial-title {
+  text-align: center;
+  margin-top: 83px;
+}
+
+.testimony-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 70px;
+}
+
+.our-projects {
+  width: 1200px;
+  margin: 40px auto;
+}
+
+.our-projects .project-title,
+.project-content {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.our-projects .project-content {
+  margin-top: 5px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.project-list {
+  margin-top: 53px;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  flex-wrap: wrap;
+  justify-content: space-between;
 }

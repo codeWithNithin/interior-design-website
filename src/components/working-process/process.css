@@ -1,0 +1,30 @@
+.work-process-container {
+  display: flex;
+  width: 1200px;
+  justify-content: center;
+  align-items: center;
+  margin: 100px auto;
+  text-align: center;
+  gap: 100px;
+}
+
+.btn-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-weight: 600;
+}
+
+.right-arrow {
+  width: 15px;
+  height: 13px;
+}
+
+.m-t-20 {
+  margin-top: 20px;
+}
+
+.m-t-52 {
+  margin-top: 52px;
+}

@@ -1,0 +1,30 @@
+.card-body {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 24px;
+}
+
+.card-btn {
+  height: 70px;
+}
+
+.top-right-border-radius {
+  border-top-right-radius: 76px;
+}
+
+.top-left-border-radius {
+  border-top-left-radius: 76px;
+}
+
+.bottom-right-border-radius {
+  border-bottom-right-radius: 76px;
+}
+
+.bottom-left-border-radius {
+  border-bottom-left-radius: 76px;
+}
+
+.m-t-40 {
+  margin-top: 40px;
+}
