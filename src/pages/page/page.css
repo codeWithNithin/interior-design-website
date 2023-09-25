@@ -1,0 +1,15 @@
+.password-section {
+  background: #f4f0ec;
+  border-radius: 70px;
+  width: 1200px;
+  margin: 100px auto;
+  padding: 154px 240px;
+}
+
+.margin-0-auto {
+  margin: 0 auto;
+}
+
+.m-t-60 {
+  margin-top: 60px;
+}

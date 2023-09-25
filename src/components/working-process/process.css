@@ -6,6 +6,7 @@
   margin: 100px auto;
   text-align: center;
   gap: 100px;
+  flex-wrap: wrap;
 }
 
 .btn-container {
@@ -27,4 +28,9 @@
 
 .m-t-52 {
   margin-top: 52px;
+}
+
+.read-more {
+  text-decoration: none;
+  color: #4d5053;
 }

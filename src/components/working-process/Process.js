@@ -1,6 +1,7 @@
 import './process.css';
+import { Link } from 'react-router-dom';
 
-const workProcessList = [
+const workProcessList1 = [
   {
     title: 'Project Plan',
   },
@@ -12,12 +13,26 @@ const workProcessList = [
   },
 ];
 
-function Process() {
+const workProcessList2 = [
+  {
+    title: '2d/3d Art Work',
+  },
+  {
+    title: 'Interior Work',
+  },
+  {
+    title: 'Decoration Work',
+  },
+];
+
+function Process(props) {
   return (
     <div className="work-process-container">
-      {workProcessList.map((ele) => (
+      {workProcessList1.map((ele) => (
         <CardLayout processObj={ele} />
       ))}
+      {props.fromHomePage === 'false' &&
+        workProcessList2.map((ele) => <CardLayout processObj={ele} />)}
     </div>
   );
 }
@@ -32,7 +47,9 @@ function CardLayout({ processObj }) {
         available, majority.
       </p>
       <div className="btn-container m-t-52 small-paragraph">
-        Read More
+        <Link to="/services-single" className="read-more">
+          Read More
+        </Link>
         <img src="/Vector.svg" alt="right-arrow" className="right-arrow" />
       </div>
     </div>

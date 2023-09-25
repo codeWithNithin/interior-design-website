@@ -15,11 +15,26 @@ const articleList = [
   },
 ];
 
+const moreArticleList = [
+  {
+    imgPath: '/article-1.png',
+    title: 'Let’s Get Solution For Building\n Construction\n Work',
+  },
+  {
+    imgPath: '/article-2.png',
+    title: 'Low Cost Latest Invented\n Interior Designing\n Ideas.',
+  },
+  {
+    imgPath: '/article-3.png',
+    title: 'Best For Any Office &\n Business Interior\n Solution',
+  },
+];
+
 function ArticleNews(props) {
   return (
     <div className="article-news-section">
       <h1 className={`text-align-${props.titleAlignment}`}>Articles & News</h1>
-      {props.showContent && (
+      {props.showContent === 'true' && (
         <p className="small-paragraph text-align-center">
           It is a long established fact that a reader will be distracted by the
           of readable content <br /> of a page when lookings at its layouts the
@@ -27,10 +42,17 @@ function ArticleNews(props) {
         </p>
       )}
 
-      <div className="article-list">
+      <div className="article-list padding-52">
         {articleList.map((article) => (
           <ArticleCard articleObj={article} />
         ))}
+      </div>
+
+      <div className="article-list p-t-20">
+        {props.showContent === 'false' &&
+          moreArticleList.map((article) => (
+            <ArticleCard articleObj={article} />
+          ))}
       </div>
     </div>
   );

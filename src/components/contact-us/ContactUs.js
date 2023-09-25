@@ -8,7 +8,7 @@ function ContactUs() {
         <p className="small-paragraph m-t-10 clr-white">
           It is a long established fact will be distracted.
         </p>
-        <button className="btn-default clr-white clr-brown margin-15-auto">
+        <button className="btn-default clr-white bg-brown margin-15-auto">
           Contact With Us
           <img
             src="/black-arrow.svg"

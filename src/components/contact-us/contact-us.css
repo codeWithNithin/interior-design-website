@@ -3,6 +3,7 @@
   background: #292f36;
   width: 1200px;
   margin: 93px auto;
+  padding: 80px 315px;
 }
 
 .contact-text {
@@ -15,7 +16,7 @@
   color: #fff;
 }
 
-.clr-brown {
+.bg-brown {
   background: #cda274;
   box-shadow: 0px 10px 20px 0px #1f2022;
 }

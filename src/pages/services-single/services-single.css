@@ -1,0 +1,72 @@
+.clr-brown {
+  color: #cda274;
+}
+
+.living-services {
+  width: 1200px;
+  margin: 100px auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 101px;
+}
+
+.text-align-left {
+  text-align: left;
+}
+
+.service-video {
+  width: 1200px;
+  margin: 100px auto;
+  position: relative;
+}
+
+.service-video .video-img {
+  width: 100%;
+  height: auto;
+  border-radius: 70px;
+}
+
+.play-btn {
+  position: absolute;
+  top: 35%;
+  left: 44%;
+}
+
+.portfolio-container {
+  width: 1200px;
+  margin: 100px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 82px;
+}
+
+.image img {
+  border-radius: 70px;
+}
+
+.font-size-20 {
+  font-size: 20px;
+}
+
+.two-lists-container {
+  width: 1200px;
+  margin: 100px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.interior-list p {
+  margin-top: 20px;
+}
+
+.interior-list p span {
+  display: inline-block;
+  margin-right: 8px;
+}
+
+.interior-list {
+  margin-top: 20px;
+}

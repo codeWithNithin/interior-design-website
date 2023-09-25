@@ -1,0 +1,20 @@
+.hero-banner {
+  height: 350px;
+  position: relative;
+}
+
+.hero-banner img {
+  width: 100%;
+  height: auto;
+}
+
+.white-box {
+  position: absolute;
+  bottom: 68px;
+  left: 500px;
+  background: #fff;
+  padding: 41px 80px;
+  border-radius: 37px 37px 0 0;
+  width: 544px;
+  height: 164px;
+}
