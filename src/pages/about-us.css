@@ -127,3 +127,64 @@ input:focus {
 .margin-left-auto {
   margin-left: auto;
 }
+
+.about-us {
+  background: #f4f0ec;
+  padding: 186px 360px;
+}
+
+.emp-img {
+  border-radius: 30px;
+}
+
+.emp-card-container {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 40px;
+}
+
+.back {
+  text-align: center;
+  margin-top: 8px;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 55px;
+  margin-top: 5px;
+}
+
+.emp-card {
+  height: 100%;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  transition: all 0.5s ease;
+  width: 100%;
+}
+
+.front {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  backface-visibility: hidden;
+  height: 100%;
+  width: 100%;
+}
+
+.back {
+  align-items: center;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  transform: rotateY(180deg);
+}
+
+.emp-card:hover {
+  height: 100%;
+}
+
+.emp-card.hover {
+  transform: rotateY(180deg);
+}

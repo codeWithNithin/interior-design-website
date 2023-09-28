@@ -69,6 +69,46 @@ function About() {
         </div>
       </div>
 
+      <div className="about-us">
+        <h1 className="text-align-center">
+          What the People Thinks <br /> About Us
+        </h1>
+        <div className="emp-card-container">
+          <div className="emp-card">
+            <div className="front">
+              <img src="/levi.jpg" alt="" className="emp-img" />
+            </div>
+            {/* <div className="back">
+              <h3> Nattasha Julie </h3>
+              <p className="small-paragraph">Design, Australia</p>
+              <div className="social-links m-t-20">
+                <img src="/facebook.png" alt="" />
+                <img src="/twitter.png" alt="" />
+                <img src="/linkedin.png" alt="" />
+              </div>
+            </div> */}
+          </div>
+          <div className="emp-card">
+            <div className="front">
+              <img src="/juliee.jpg" alt="" className="emp-img" />
+            </div>
+            <div className="back"></div>
+          </div>
+          <div className="emp-card">
+            <div className="front">
+              <img src="/smith.png" alt="" className="emp-img" />
+            </div>
+            <div className="back"></div>
+          </div>
+          <div className="emp-card">
+            <div className="front">
+              <img src="/queen.jpg" alt="" className="emp-img" />
+            </div>
+            <div className="back"></div>
+          </div>
+        </div>
+      </div>
+
       <div className="form-section">
         <h1>
           Creative project? Let's have <br /> a productive talk.
