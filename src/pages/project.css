@@ -1,0 +1,29 @@
+.tab-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 96px;
+  width: 680px;
+  margin: 0 auto;
+  border-radius: 18px;
+  border: 1px solid #cda274;
+  height: 65px;
+  gap: 10px;
+  margin-top: 50px;
+}
+
+.active {
+  border-radius: 18px;
+  background: #cda274;
+  padding: 26px 66px;
+  color: #fff;
+}
+
+.project-list {
+  width: 1200px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 22px;
+}

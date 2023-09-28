@@ -1,0 +1,54 @@
+.navigation {
+  position: relative;
+  width: 1200px;
+  margin: 100px auto;
+}
+
+.tracker {
+  position: absolute;
+  top: 29%;
+  left: 26%;
+}
+
+.navigation-img {
+  border-radius: 70px;
+}
+
+.main-section {
+  width: 1200px;
+  margin: 100px auto;
+}
+
+.main-title {
+  text-align: center;
+}
+
+.contact-container {
+  border-radius: 50px;
+  background: #f4f0ec;
+  padding: 76px 32px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 55px;
+}
+
+.email-section,
+.mob-section,
+.globe-section {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 25px;
+}
+
+.form-container {
+  width: 100%;
+}
+
+.field {
+  width: 100%;
+}

@@ -1,0 +1,38 @@
+.main-content-sec {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1200px;
+  margin: 30px auto;
+  gap: 42px;
+}
+
+.project-detail-img {
+  position: relative;
+  width: 1200px;
+  margin: 50px auto;
+}
+
+.zoom-icon {
+  position: absolute;
+  top: 40%;
+  left: 40%;
+}
+
+.project-img {
+  border-radius: 70px;
+}
+
+.box-container {
+  border-radius: 70px;
+  background: #f4f0ec;
+  padding: 55px 84px;
+  width: 500px;
+}
+
+.flex-box {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  justify-content: space-between;
+}

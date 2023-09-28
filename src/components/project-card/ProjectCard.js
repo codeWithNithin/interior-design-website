@@ -1,6 +1,13 @@
+import { useNavigate } from 'react-router-dom';
 import './project-card.css';
 
 function ProjectCard({ projectObj }) {
+  const navigate = useNavigate();
+
+  function handleClick(event) {
+    navigate('/project-detail');
+  }
+
   let cssClass =
     projectObj.imgPath === '/project-3.png' ||
     projectObj.imgPath === '/project-4.png'
@@ -22,7 +29,7 @@ function ProjectCard({ projectObj }) {
           <p className="small-paragraph"> {projectObj.subTitle} </p>
         </div>
         <div className="card-btn">
-          <img src="/elipse.svg" alt="" />
+          <img src="/elipse.svg" alt="" onClick={handleClick} />
         </div>
       </div>
     </div>

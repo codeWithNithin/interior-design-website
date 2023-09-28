@@ -1,0 +1,43 @@
+.latest-article {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 62px;
+  border: 1px solid #e7e7e7;
+  box-shadow: 0px 10px 30px 0px rgba(255, 255, 255, 0.25);
+  padding: 22px;
+  gap: 60px;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.mar-100 {
+  margin-top: 20px;
+  margin-bottom: 100px;
+}
+
+.article-post img {
+  border-radius: 70px;
+}
+
+.m-t-41 {
+  margin-top: 41px;
+}
+
+.m-t-22 {
+  margin-top: 22px;
+}
+
+.m-t-auto {
+  margin-top: 100px;
+}
+
+.latest-post {
+  width: 1200px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.m-t-100 {
+  margin-top: 100px;
+}

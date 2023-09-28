@@ -1,0 +1,52 @@
+.how-we-wrk {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 160px 116px;
+  border-radius: 70px;
+  background: #f4f0ec;
+}
+
+.work-main {
+  text-align: center;
+}
+
+.display-img img {
+  background: #c4c4c4;
+  height: 453px;
+}
+
+.display-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 51px;
+}
+
+.one-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.one-img {
+  border-top-right-radius: 123px;
+  border-bottom-left-radius: 326.5px;
+}
+
+.num {
+  color: #fff;
+  text-align: center;
+  font-family: DM Serif Display;
+  font-size: 120px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 125%; /* 150px */
+}
+
+.main-flex-section {
+  margin-top: 100px;
+}
+
+.m-t-70 {
+  margin-top: 70px;
+}

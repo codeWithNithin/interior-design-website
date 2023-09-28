@@ -1,10 +1,16 @@
 import './header.css';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 function Header() {
+  const navigate = useNavigate();
+
+  function handleClick(event) {
+    navigate('/');
+  }
+
   return (
     <header className="main-header">
-      <div className="logo">
+      <div className="logo" onClick={handleClick}>
         <div>
           <img src="/logo.svg" alt="iterno logo" />
         </div>
@@ -22,7 +28,7 @@ function Header() {
             <Link to="/services"> Services </Link>
           </li>
           <li>
-            <Link to="#"> Project </Link>
+            <Link to="/project"> Project </Link>
           </li>
           <li>
             <Link to="/blog"> Blog </Link>

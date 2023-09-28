@@ -28,3 +28,12 @@
 .m-t-40 {
   margin-top: 40px;
 }
+
+.size-pro1 {
+  height: auto;
+  max-width: 100%;
+}
+
+.project-card {
+  margin-top: 20px;
+}

@@ -1,0 +1,27 @@
+.employee-img img {
+  border-radius: 30px;
+}
+
+.employees {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* gap: 22px; */
+  width: 1200px;
+  margin: 50px auto;
+  flex-wrap: wrap;
+}
+
+.employee-content {
+  text-align: center;
+}
+
+.social-img {
+  margin: 0 auto;
+  display: inline-block;
+  margin-right: 16px;
+}
+
+.m-t-50 {
+  margin-top: 50px;
+}

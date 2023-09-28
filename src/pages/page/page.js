@@ -21,6 +21,10 @@ function Page() {
             have <br /> access to this page, please type your password below.
           </p>
 
+          <div className="field m-t-20">
+            <input type="text" placeholder="Enter your password" />
+          </div>
+
           <button className="btn-default m-t-60 margin-0-auto">
             Submit Now
             <img src="/Vector.svg" alt="right-arrow" className="right-arrow" />

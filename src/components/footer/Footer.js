@@ -16,6 +16,14 @@ function Footer() {
             It is a long established fact that a reader <br /> will be
             distracted lookings.
           </p>
+          <div className="m-t-20">
+            <div className="social-links">
+              <img src="facebook.png" alt="" />
+              <img src="twitter.png" alt="" />
+              <img src="linkedin.png" alt="" />
+              <img src="insta.png" alt="" />
+            </div>
+          </div>
         </div>
         <div className="pages">
           <h4> Pages </h4>
@@ -27,7 +35,7 @@ function Footer() {
               <Link to="/"> Our Projects </Link>
             </li>
             <li>
-              <Link to="/"> Our Team </Link>
+              <Link to="/team"> Our Team </Link>
             </li>
             <li>
               <Link to="/contact">Contact Us</Link>
